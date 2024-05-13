@@ -8,5 +8,5 @@ APP_GROUP_ID = group.com.$(DEVELOPMENT_TEAM).loopkit.LoopGroup
 APP_ICON = trioBlack
 APP_URL_SCHEME = Trio
 
-#include? "../../ConfigOverride.xcconfig"
 #include? "ConfigOverride.xcconfig"
+#include? "../../ConfigOverride.xcconfig"
