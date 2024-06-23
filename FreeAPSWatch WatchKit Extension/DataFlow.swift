@@ -32,4 +32,10 @@ struct TempTargetWatchPreset: Codable, Identifiable {
     let id: String
     let description: String
     let until: Date?
+    let typeTempTarget: typeTempTarget
+}
+
+enum typeTempTarget: Codable {
+    case tempTarget
+    case override
 }
